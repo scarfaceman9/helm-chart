@@ -1,0 +1,15 @@
+# Default values for monolithic.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+namespace: test
+image:
+  repository: nginx      
+  tag: "1.19"
+
+resources:
+  limits:      
+    cpu: "200m"
+    memory: "1Gi"
+
+
